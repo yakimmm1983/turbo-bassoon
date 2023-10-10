@@ -51,8 +51,8 @@
 # circle(10)
 
 import scvear
-scvear.mnog()
+array = scvear.mnog()
 print(scvear.mnog())
 
-scvear.summ()
-print(scvear.summ())
+scvear.summ(array)
+print(scvear.summ(array))

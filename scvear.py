@@ -10,6 +10,6 @@ def mnog():
     array1 = list(mno)
     return array1
 
-def summ():
-    summ = len(mnog())
+def summ(array1):
+    summ = len(array1)
     return summ
