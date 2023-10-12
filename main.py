@@ -50,9 +50,57 @@
 # from scvear import circle
 # circle(10)
 
-import scvear
-array = scvear.mnog()
-print(scvear.mnog())
+# import scvear
+# array = scvear.mnog()
+# print(scvear.mnog())
+#
+# scvear.summ(array)
+# print(scvear.summ(array))
 
-scvear.summ(array)
-print(scvear.summ(array))
+
+
+# from random import randint
+# array = []
+# for i in range(100):
+#     array.append(randint(1,20))
+#
+# def mnog():
+#     mno = set(array)
+#     array1 = list(mno)
+#     return array1
+#
+# def summ(array1):
+#     summ = len(array1)
+#     return summ
+
+# from Novie import Animal
+# wolf = Animal("волк","лес",12)
+# pig = Animal("свинья","город",4)
+# animals = [wolf,pig]
+# for animal in animals:
+#     print(animal.getInfo())
+#     animal.setLocation()
+
+# from Novie import Animal
+# from random import randint
+# animals = []
+# animalName = ["Заяц","Черепаха","Утка","Гусь","Собака"]
+# for name in animalName:
+#     animals.append(Animal(name,randint(100,200)))
+#
+# road = int(input("введите длинну дороги"))
+# for animal in animals:
+#     if animal.getSpeed() >= road:
+#         print(f"{animal.getType()} пробежал")
+#     else:
+#         print(f"{animal.getType()} сошел с дистанции")
+
+
+from Novie import car
+
+bmv = car("bmv","синий","мустанг","седан" )
+lada = car("lada","красный","большой","хечбек")
+china = car("china","черный","ломается","кабриолет")
+cars = [bmv,lada,china]
+for bibi in cars:
+    print(bibi.getCar())
