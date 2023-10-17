@@ -96,11 +96,39 @@
 #         print(f"{animal.getType()} сошел с дистанции")
 
 
-from Novie import car
+# from Novie import car
+#
+# bmv = car("bmv","синий","мустанг","седан" )
+# lada = car("lada","красный","большой","хечбек")
+# china = car("china","черный","ломается","кабриолет")
+# cars = [bmv,lada,china]
+# for bibi in cars:
+#     print(bibi.getCar())
 
-bmv = car("bmv","синий","мустанг","седан" )
-lada = car("lada","красный","большой","хечбек")
-china = car("china","черный","ломается","кабриолет")
-cars = [bmv,lada,china]
-for bibi in cars:
-    print(bibi.getCar())
+# array = range(10)
+# array = list(map(lambda x: x**2,array))
+# print(array)
+#
+# array = range(10)
+# array = list(filter(lambda x: x%2==0,array))
+# print(array)
+#
+# from functools import reduce
+# array = range(1,10)
+# array = reduce(lambda x,y: x*y,array,1) #колличество повторений (1) в конце по умолчанию 1
+# print(array)
+#
+# with open("text.txt","w",encoding="utf-8") as file:
+#     file.write("hello world")
+# with open("text.txt","r",encoding="utf-8") as file:
+#     print(file.read())
+
+
+with open("некийтекстовый файл.txt","r",encoding="utf-8") as file:
+    print(file.read())   #c ним не работает
+    file.seek(0)     #обнуляет чтение файла txt
+    files = len(list(filter(lambda x: str.isdigit(x),file.read())))
+    print(f"колличество: {files}")
+
+
+

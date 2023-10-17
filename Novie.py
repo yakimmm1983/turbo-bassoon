@@ -24,15 +24,17 @@
 #     def getSpeed(self):
 #         return self.speed
 
-class car:
-    def __init__(self,avto,color,motor,body):
-        self.avto = avto
-        self.color = color
-        self.motor = motor
-        self.body = body
+# class car:
+#     def __init__(self,avto,color,motor,body):
+#         self.avto = avto
+#         self.color = color
+#         self.motor = motor
+#         self.body = body
+#
+#     def getCar(self):
+#         return {"модель": self.avto,
+#                 "цвет":self.color,
+#                 "мотор": self.motor,
+#                 "кузов": self.body}
 
-    def getCar(self):
-        return {"модель": self.avto,
-                "цвет":self.color,
-                "мотор": self.motor,
-                "кузов": self.body}
+
