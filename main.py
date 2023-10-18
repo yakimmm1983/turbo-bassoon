@@ -123,12 +123,14 @@
 # with open("text.txt","r",encoding="utf-8") as file:
 #     print(file.read())
 
+#
+# with open("некийтекстовый файл.txt","r",encoding="utf-8") as file:
+#     print(file.read())   #c ним не работает
+#     file.seek(0)     #обнуляет чтение файла txt
+#     files = len(list(filter(lambda x: str.isdigit(x),file.read())))
+#     print(f"колличество: {files}")
 
-with open("некийтекстовый файл.txt","r",encoding="utf-8") as file:
-    print(file.read())   #c ним не работает
-    file.seek(0)     #обнуляет чтение файла txt
-    files = len(list(filter(lambda x: str.isdigit(x),file.read())))
-    print(f"колличество: {files}")
-
-
+tables = [lambda x = x: x*10 for x in range(1, 11)]
+for table in tables:
+    print(table())
 
